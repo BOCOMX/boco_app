@@ -1,16 +1,49 @@
-# boco_app
+# BOCO App
 
-A new Flutter project.
+Una aplicación móvil desarrollada en Flutter dedicada a fomentar el cuidado animal y facilitar adopciones responsables de mascotas.
 
-## Getting Started
+## Descripción
 
-This project is a starting point for a Flutter application.
+BOCO es una plataforma que conecta a personas interesadas en adoptar mascotas con refugios y organizaciones de rescate animal. Nuestro objetivo es promover la tenencia responsable de animales y mejorar la calidad de vida de las mascotas que buscan un hogar.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologías
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**: Framework multiplataforma para desarrollo móvil
+- **Firebase**: Autenticación, base de datos en tiempo real y almacenamiento
+- **Google Cloud**: Servicios de backend y análisis
+- **Dart**: Lenguaje de programación
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Características principales
+
+- Exploración de mascotas disponibles para adopción
+- Perfiles detallados de cada animal
+- Sistema de solicitudes de adopción
+- Gestión de refugios y organizaciones
+- Notificaciones en tiempo real
+- Guías de cuidado animal
+
+## Requisitos
+
+- Flutter SDK (versión 3.0 o superior)
+- Dart SDK
+- Android Studio / Xcode
+- Cuenta de Firebase configurada
+
+## Instalación
+```bash
+# Clonar el repositorio
+git clone https://github.com/BOCOMX/boco_app.git
+
+# Navegar al directorio
+cd boco_app
+
+# Instalar dependencias
+flutter pub get
+
+# Ejecutar la aplicación
+flutter run
+```
+
+## Contacto
+
+Para más información, contacta a: bocomx.oficial@gmail.com
