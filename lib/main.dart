@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:intl/intl.dart';
 import 'package:flutter/services.dart';
 
 // Importaciones de pantallas de la aplicación
@@ -81,7 +80,7 @@ class MyApp extends StatelessWidget {
           onSurface: Colors.black,    // Texto sobre superficies
           brightness: Brightness.light,
         ),
-        dialogTheme: const DialogTheme(
+        dialogTheme: const DialogThemeData(
           backgroundColor: Colors.white, // Fondo blanco para los diálogos
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.all(Radius.circular(10)), // Opcional
@@ -214,13 +213,6 @@ class _MyHomePageState extends State<MyHomePage> {
     const LocationsScreen(),
     const ProfileScreen(),
   ];
-
-  // Método para cambiar la pantalla seleccionada
-  void _onItemTapped(int index) {
-    setState(() {
-      _selectedIndex = index;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
